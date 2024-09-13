@@ -9,9 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'primary-blue': "#4257ff",
+        'pastel-yellow': '#feffdb',
+        'pastel-red': '#ffd6d6',
+        'pastel-blue': '#cfe1ff',
+        'pastel-blue-2': '#d9ddff',
+        'pastel-light-blue': '#ecf3ff',
+        'pastel-purple': '#e4c1f9',
+        'pastel-gray': '#edede9',
       },
+      dropShadow: {
+        'card': '0 0 1px rgba(0, 0, 0, 0.25)'
+      }
     },
   },
   plugins: [],
